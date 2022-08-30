@@ -27,3 +27,5 @@ samples/test.nwd
 samples/test-large.dwfx
 
 .DS_Store
+
+build
