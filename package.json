@@ -33,7 +33,7 @@
 		"test-model": "./node_modules/mocha/bin/mocha --colors --recursive --timeout 10000 ./test/model",
 		"test-hubs": "./node_modules/mocha/bin/mocha --colors --timeout 10000 ./test/api/HubsApi.spec",
 		"coverage": "nyc npm run test",
-		"docs": "jsdoc -c jsdoc.config.json -d build/docs"
+		"docs": "jsdoc -c jsdoc.config.json -d build/docs || true"
 	},
 	"dependencies": {
 		"axios": "^0.27.2",
